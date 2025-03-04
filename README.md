@@ -69,6 +69,7 @@ source install/setup.sh
 ### On the Raspberry Pi:
 ```bash
 ros2 run raw_data_publisher tof_publisher
+ros2 run raw_data_publisher imu_publisher
 ```
 
 ### On the Host PC:
