@@ -3,9 +3,10 @@
 This guide provides step-by-step instructions to build and run a ROS 2 workspace inside a Docker container, install necessary dependencies, and run ROS 2 nodes.
 
 ## 1. Build the Docker Image
-Navigate to the ROS 2 workspace directory and build the Docker image:
+First unzip the ros2 workspace. Navigate to the ROS 2 workspace directory and build the Docker image:
 
 ```bash
+unzip ros2_ws.zip
 cd /ros2_ws
 docker build -t ros2_ws .
 ```
