@@ -71,7 +71,10 @@ ros2 run raw_data_publisher tof_publisher
 ```
 
 ### On the Host PC:
+Build the depth_processor package and source it.
 ```bash
+colcon build
+source install/setup.sh
 ros2 run depth_processor process_depth
 rviz2
 ```
